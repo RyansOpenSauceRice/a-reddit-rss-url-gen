@@ -28,7 +28,6 @@ Perfect for users who want to follow specific subreddits in their preferred RSS 
   - Post limit
 - **Live Preview**: See the generated URL update in real-time
 - **One-Click Copy**: Copy the URL or label with a single click
-- **Offline Capable**: Works without an internet connection once loaded
 
 ## 🚀 Usage
 
@@ -44,3 +43,27 @@ Perfect for users who want to follow specific subreddits in their preferred RSS 
 - No external dependencies
 - No data collection or tracking
 - Runs entirely client-side
+
+## 🔄 Similar Projects
+
+There are several excellent projects in the Reddit RSS ecosystem, each with different approaches and strengths:
+
+### Reddit RSS Tools Ecosystem
+
+| Project | Approach | Tech Stack | Features |
+|---------|----------|------------|----------|
+| **This Project** | Browser-based URL generator | HTML, CSS, JavaScript | Single file, client-side only, customizable parameters, live preview |
+| [trashhalo/reddit-rss](https://github.com/trashhalo/reddit-rss) | Server-based feed enhancer | Go, Docker | Content extraction, NSFW filtering, score limits, OAuth support |
+| [johnwarne/reddit-top-rss](https://github.com/johnwarne/reddit-top-rss) | Web application with filtering | PHP, Bootstrap | Score thresholds, content parsing, caching system, Docker deployment |
+| [lalitpagaria/reddit-rss-reader](https://github.com/lalitpagaria/reddit-rss-reader) | Python library | Python, PyPI package | Programmatic access, content extraction, datetime filtering |
+
+### Project Characteristics
+
+Each project offers unique capabilities for working with Reddit RSS:
+
+- **This generator** provides a dependency-free solution for quickly creating Reddit RSS URLs
+- **trashhalo/reddit-rss** enhances feed content with additional filtering and extraction capabilities
+- **johnwarne/reddit-top-rss** offers popularity-based filtering with a preview interface
+- **lalitpagaria/reddit-rss-reader** enables programmatic Reddit feed processing in Python applications
+
+The diversity of approaches demonstrates the rich ecosystem of tools available for Reddit RSS integration, each with different technical implementations and feature sets.
