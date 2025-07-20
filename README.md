@@ -2,8 +2,6 @@
 
 ![Reddit RSS Generator Interface](images/reddit_rss_generator.png)
 
-## ✅ Project Status: COMPLETED
-
 A lightweight, single-file tool that runs locally in your browser to generate RSS feed URLs for Reddit subreddits. No containers, no server setup, no dependencies - just open the HTML file and start generating URLs.
 
 ## 🔍 Use Case
